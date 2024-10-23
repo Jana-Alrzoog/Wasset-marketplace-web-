@@ -1,0 +1,99 @@
+<! DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Add a New Product</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <img src="logo.png" alt="Waseet Logo" class="logo-img">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </div>
+        </div>
+    
+        <div class="header-bottom">
+            <nav class="nav-links">
+                <a href="#">User’s Page</a>
+                <a href="#">Seller</a>
+                <a href="#">Categories</a>
+                <a href="#">Cart</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="breadcrumbs">
+      <a href="home.html">Home Page</a> &gt; 
+      <a href="Seller.html">Seller</a> &gt; 
+      <a href="Add a New Product.html">Add a New Product</a>
+  </div>
+      
+        <h1>Add a New Product</h1>
+        
+        <form class="form">
+        <div class="form">
+          <label for="product-name">Name of Product:</label>
+          <input type="text" id="product-name" placeholder="Enter product name">
+        </div>
+      
+        <div class="form">
+          <label for="photo">Photo:</label>
+          <input type="file" id="photo">
+        </div>
+      
+        <div class="form">
+          <label for="regular-price">Regular Price:</label>
+          <input type="number" id="regular-price" placeholder="Enter regular price">
+        </div>
+      
+        <div class="form">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" placeholder="Enter quantity">
+        </div>
+      
+        <div class="form">
+          <label for="sale-price">Sale Price:</label>
+          <input type="number" id="sale-price" placeholder="Enter sale price">
+        </div>
+      
+        <div class="form">
+          <label>Category:</label>
+          <div class="category-buttons">
+            <button style="width: 250px;height: 30px;font-size: large;">home</button>
+            <button style="width: 250px;height: 30px;font-size: large;">beauty</button>
+            <button style="width: 250px;height: 30px;font-size: large;">electronics</button>
+          </div>
+        </div>
+      
+        <div class="form">
+          <label for="description" style="float: left;">Description:</label>
+          <textarea id="description" rows="10" placeholder="Enter your description here"></textarea>
+        </div>
+      
+        <div class="actions">
+          <button class="add-product" style="width: 65%;height: 30px;font-size: large;">Add Product</button>
+          <button class="cancel" style="width: 30%;height: 30px;font-size: large;">Cancel</button>
+        </div>
+      </div>
+      
+        </form>
+
+
+      <footer class="footer">
+        <p>&copy; 2024 Waseet. All Rights Reserved.</p>
+        <p>Contact: <a href="mailto:support@waseet.com">support@waseet.com</a> | Phone: +123456789</p>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+
+      </body>
+        </html>
