@@ -1,0 +1,15 @@
+Functional Requirements (Seller and Customer)
+Customer-Specific Requirements:
+1-Navigate Product Categories: The website allows the customer to browse product categories by selecting from a list of large clickable icons.
+2-Filter Products: The customer shall be able to filter products by specific criteria such as price, ratings, or name.
+3-Add Products to Cart: The website allows the customer to add selected products from a category or product page directly to their shopping cart.
+4-View Cart: The customer shall be able to view the contents of their shopping cart, which includes product details, quantities, and total prices.
+5-Modify Cart Items: The website allows the customer to adjust the quantity of items or remove items from their cart before checking out.
+6-Submit Product Reviews: The customer shall be able to submit feedback and ratings for purchased products by selecting from previous orders.
+7-View Order History: The website allows the customer to view all previous orders, including order numbers, dates, and total amounts.
+Seller-Specific Requirements:
+1-Add New Products: The website allows the seller to add new products by filling out a form that includes product name, price, category, and description.
+2-Manage Existing Products: The seller shall be able to view and edit the details of their products in the seller’s dashboard.
+3-Create and Manage Offers: The website allows the seller to create promotional offers by selecting products and specifying offer details.
+4-Delete Offers: The seller shall be able to delete or modify existing offers through the seller dashboard.
+5-Form Validation: The website enforces form validation to ensure that the seller does not submit incomplete product or offer information.
