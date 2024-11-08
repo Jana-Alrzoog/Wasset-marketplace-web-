@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
         <div class="header-top">
             <div class="logo">
@@ -17,51 +16,28 @@
                 <button>Search</button>
             </div>
         </div>
-    
         <div class="header-bottom">
             <nav class="nav-links">
                 <a href="User's Page.html">User’s Page</a>
-                <a href="#">Seller</a>
-                <a href="#">Categories</a>
+                <a href="seller dashboard.html">Seller</a>
+                <a href="Beauty.html">Categories</a>
                 <a href="Cart.html">Cart</a>
             </nav>
         </div>
     </header>
-
-    <!-- Breadcrumb Navigation -->
+    
     <div class="breadcrumbs">
-        <a href="Home Page.html">Home Page</a> &gt; 
-        <a href="User's Page.html">User's Page</a> &gt; 
-       <span> <a href="Cart.html">Cart Page</a> </span>
+        <a href="home.html">Home Page</a> &gt; 
+        <a href="user.html">User's Page</a> &gt;
+        <span class="current">Cart Page</span>
     </div>
-
-    <!-- Cart Section -->
+    
     <div class="cart-container">
-        <div class="cart-items">
-            <h1>Cart</h1>
-            <div class="cart-item">
-                <img src="canon.png" alt="Canon Camera">
-                <div class="cart-item-details">
-                    <h3>Canon Camera</h3>
-                    <p>High-quality camera with advanced features.</p>
-                    <p>Price: $5</p>
-                    <p>Qty: <input type="number" value="1"></p>
-                    <button class="remove-button">Remove</button>
-                </div>
-            </div>
-            <div class="cart-item">
-                <img src="clothes.png" alt="Plastic Hangers">
-                <div class="cart-item-details">
-                    <h3>Plastic Hangers</h3>
-                    <p>Durable plastic hangers, perfect for organizing your closet.</p>
-                    <p>Price: $8</p>
-                    <p>Qty: <input type="number" value="1"></p>
-                    <button class="remove-button">Remove</button>
-                </div>
-            </div>
+        <div id="cart-items" class="cart-items">
+            <h1>Your Cart</h1>
+            <!-- Cart items will be dynamically rendered here by JavaScript -->
         </div>
         
-        <!-- Checkout Section -->
         <div class="checkout-section">
             <h2>Checkout</h2>
             <form>
@@ -88,15 +64,15 @@
             </form>
         </div>
     </div>
-
-    <!-- Confirmation Message -->
-    <div class="thank-you-message">
-        <h3>Thank You for Your Purchase!</h3>
-        <p>Your order has been placed successfully.</p>
-        <p>Order Confirmation Number: <span>+966567342189</span></p>
+    
+    <div>
+        <div class="thank-you-message">
+            <h3>Thank You for Your Purchase!</h3>
+            <p>Your order has been placed successfully.</p>
+            <p>Order Confirmation Number: <span>+966567342189</span></p>
+        </div>
     </div>
-
-    <!-- Footer Section -->
+    
     <footer>
         <p>&copy; 2024 Waseet. All Rights Reserved.</p>
         <p>Contact: <a href="mailto:support@waseet.com">support@waseet.com</a> | Phone: +123456789</p>
@@ -106,8 +82,7 @@
             <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
         </div>
     </footer>
-
+    
+    <script src="cart.js"></script>
 </body>
 </html>
-
-
