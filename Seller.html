@@ -88,7 +88,8 @@
     <!-- Breadcrumbs -->
     <nav class="breadcrumbs">
         <a href="Home Page.html">Home</a> &gt;
-        <span>Seller</span>
+        <a href="Seller.html">Seller</a>
+        <span>Dashboard</span>
     </nav>
 
     <!-- Products Section -->
@@ -98,7 +99,7 @@
 
     <!-- Button to Add Product or Edit Offers -->
     <div class="button-container">
-        <a href="manage_offers.html">Make or Delete Offers</a>
+       <a href="manage_offers.html">Make or Delete Offers</a>
         <a href="add-new-prodect.html">Add Product</a>
     </div>
 
@@ -114,7 +115,7 @@
     </footer>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
+       document.addEventListener('DOMContentLoaded', () => {
     const offersContainer = document.getElementById('offers-container');
     const storedProducts = JSON.parse(localStorage.getItem('sellerProducts')) || [];
 
@@ -126,7 +127,7 @@
             offerElement.classList.add('offer');
 
             offerElement.innerHTML = `
-         <img src="${product.photo}" alt="${product.name}" class="offer-img">
+                <img src="${product.photo}" alt="${product.name}" class="offer-img">
                 <h3>${product.name}</h3>
                 <p>Quantity: ${product.quantity}</p>
                 <p>Price: <strong>$${product.regularPrice.toFixed(2)}</strong></p>
@@ -139,6 +140,7 @@
         });
     }
 });
+
 
     </script>
 </body>
